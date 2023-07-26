@@ -1,6 +1,6 @@
 "use client";
-import Form from "@/components/form";
-import InputInfos from "@/types/inputInfos.type";
+import Form from "@/components/elements/form";
+import { InputInfos } from "@/types/inputInfos.type";
 
 export default function CadastroCliente() {
     const inputs: InputInfos[] = [

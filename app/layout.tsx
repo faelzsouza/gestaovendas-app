@@ -1,4 +1,4 @@
-import Menu from "@/components/menu";
+import Menu from "@/components/elements/menu";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";

@@ -1,6 +1,6 @@
 "use client";
-import DataList from "@/components/dataList";
-import { DateSpecsContext } from "@/components/dateSpecsContext";
+import DataList from "@/components/elements/dataList";
+import { DateSpecsContext } from "@/context/dateSpecsContext";
 import { Api } from "@/lib/api";
 import { Venda } from "@/types/venda.type";
 import { useContext } from "react";

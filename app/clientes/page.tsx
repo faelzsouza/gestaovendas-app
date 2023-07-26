@@ -1,8 +1,8 @@
 "use client";
 import { useContext } from "react";
-import { DateSpecsContext } from "@/components/dateSpecsContext";
+import { DateSpecsContext } from "@/context/dateSpecsContext";
 import { Cliente } from "@/types/cliente.type";
-import DataList from "@/components/dataList";
+import DataList from "@/components/elements/dataList";
 import { Api } from "@/lib/api";
 
 export default function Home() {
